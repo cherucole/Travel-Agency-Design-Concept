@@ -107,5 +107,30 @@ height:3rem;
 font-family: 'Montserrat', 'FontAwesome',sans-serif;
 }
 
+.links{
+    margin-left:20%;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .links ul {
+      list-style: none;
+      display: flex;
+      font-size: 1.4rem;
+      font-family: 'Lato', sans-serif;
+
+  }
+  
+  .links ul li {
+      padding: 0 2rem;
+      line-height: 6rem;
+      transition: background-color .5s;
+  }
+  .links ul li:hover {
+      background-color: rgba(0, 0, 0, 0.35)
+  }
+  
+  
 
 
