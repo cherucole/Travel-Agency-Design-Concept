@@ -161,18 +161,17 @@ textarea {
 }
 
 .cta h2 {
-    /* border: 1px solid white; */
+    border: 0.5px solid white;
     padding: 1rem 2rem;
     border-radius: 50px;
     background: linear-gradient(to right, #724FE8, #1CBCF2);
-
     font-size: 1.6rem;
     color: white;
 }
 
-.cta h2:hover {
+/* .cta h2:hover {
     border: 1px solid white;
-}
+} */
 
 .cta h2 i {
     margin-left: 0.2rem;
