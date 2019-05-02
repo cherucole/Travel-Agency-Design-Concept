@@ -177,7 +177,8 @@ textarea {
     margin-left: 0.2rem;
     transform: rotate(0deg);
 }
-.featured{
+
+.featured {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
@@ -186,7 +187,7 @@ textarea {
     font-family: 'Lato', sans-serif;
 }
 
-.destinations{
+.destinations {
     margin-top: 1rem;
     margin-left: 15%;
     position: relative;
@@ -208,10 +209,34 @@ textarea {
     transition: background-color .5s;
 }
 
-.destinations ul li a img{
- height: 15rem !important;
- width: 15rem !important;
+.destinations ul li a img {
+    height: 15rem !important;
+    width: 15rem !important;
     padding: 0 0.5rem;
-
+    opacity: 0.7;
 
 }
+
+.destinations ul li a img:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+    transition: .8s ease;
+    opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    left: -15%;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+}
+.destinations ul li:hover .middle {
+    opacity: 1;
+  }
