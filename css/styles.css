@@ -169,9 +169,14 @@ textarea {
     color: white;
 }
 
-/* .cta h2:hover {
-    border: 1px solid white;
-} */
+.cta h2:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+    transition: .8s ease;
+}
 
 .cta h2 i {
     margin-left: 0.2rem;
